@@ -1598,7 +1598,9 @@ background-color: #555;
    .search-model-form input {
      width: 100%;
    }
+
  }
+
 
  /* Small Mobile :320px. */
 
@@ -1629,4 +1631,8 @@ background-color: #555;
      margin-left: 0;
      padding: 13px 10px;
    }
+   .map-section {
+      position: relative;
+      padding: 0px 0px 0;
+  }
  }
