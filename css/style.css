@@ -49,7 +49,8 @@
  }
 
  h4 {
-   font-size: 24px;
+   font-size: 20px;
+   text-align: center;
  }
 
  h5 {
@@ -148,7 +149,7 @@
  .site-btn {
    display: inline-block;
    border: none;
-   font-size: 14px;
+   font-size: 16px;
    font-weight: 600;
    min-width: 186px;
    padding: 23px 47px;
@@ -426,8 +427,8 @@
  Header section
   ---------------------*/
   #mono{
-     height: 55px;
-     width: 55px;
+     height: 80px;
+     width: 70px;
    }
  .header-top {
    padding: 14px 40px;
@@ -749,7 +750,7 @@ background-color: #555;
  .hero-item .site-btn {
    opacity: 0;
    top: 50px;
-   position: relative;
+   position:relative;
  }
 
  .hero-slider .owl-item.active .hero-item h2,
@@ -891,6 +892,11 @@ background-color: #555;
  /* ----------------------
   Testimonial Section
  ------------------------*/
+ #test{
+   height:100%;
+   width: 100%;
+
+ }
 
  .testimonial-bg {
    height: 100%;
@@ -983,8 +989,8 @@ background-color: #555;
    padding-top: 10px;
  }
  #certificate{
-   height: 200px;
-   width: 150px;
+   height: 500px;
+   width: 400px;
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -1388,7 +1394,12 @@ background-color: #555;
    .footer-social a {
      margin-right: 4px;
    }
+   #mono{
+      height: 150px;
+      width: 150px;
+    }
  }
+
 
  /* Tablet :768px. */
 
@@ -1464,10 +1475,6 @@ background-color: #555;
    .footer-menu li:first-child a {
      margin-left: 0;
    }
-   .copyright {
-     text-align: center;
-     padding-bottom: 30px;
-   }
    .about-text {
      padding-top: 50px;
    }
@@ -1477,7 +1484,12 @@ background-color: #555;
    .sidebar {
      padding-top: 50px;
    }
+   #mono{
+      height: 150px;
+      width: 150px;
+    }
  }
+
 
  /* Large Mobile :480px. */
 
@@ -1522,7 +1534,7 @@ background-color: #555;
    }
    .slicknav_menu {
      display: block;
-     text-align: center;
+     text-align:right;
      background: transparent;
    }
    .slicknav_btn {
@@ -1598,6 +1610,10 @@ background-color: #555;
    .search-model-form input {
      width: 100%;
    }
+   #mono{
+      height: 150px;
+      width: 150px;
+    }
 
  }
 
@@ -1635,4 +1651,8 @@ background-color: #555;
       position: relative;
       padding: 0px 0px 0;
   }
+  #mono{
+     height: 150px;
+     width: 150px;
+   }
  }
