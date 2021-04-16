@@ -1028,6 +1028,16 @@ background-color: #555;
 #foot{
   text-align: center;
 }
+#abou{
+  height: 600px;
+
+}
+#his{
+  text-align: center;
+}
+.ul{
+  text-align: center;
+}
  .footer-section {
    background: #17172d;
    padding-bottom: 0;
