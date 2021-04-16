@@ -1025,9 +1025,6 @@ background-color: #555;
   Footer Section
  ---------------------*/
 
-#foot{
-  text-align: center;
-}
  .footer-section {
    background: #17172d;
    padding-bottom: 0;
@@ -1043,7 +1040,6 @@ background-color: #555;
 
  .footer-widget.about-widget img {
    margin-bottom: 40px;
-   margin-left: 7px;
  }
 
  .footer-widget.about-widget p {
