@@ -49,7 +49,7 @@
  }
 
  h4 {
-   font-size: 20px;
+   font-size: 18px;
    text-align: center;
  }
 
@@ -89,7 +89,9 @@
    padding: 0;
    margin: 0;
  }
-
+#nos{
+  padding-bottom: 5px;
+}
  /*---------------------
  Helper CSS
   -----------------------*/
@@ -426,9 +428,21 @@
  /*------------------
  Header section
   ---------------------*/
+  #email{
+    padding-bottom: 25px;
+  }
+  #emailimage{
+    height: 40px;
+    width: 40px;
+    vertical-align:top;
+    border-style: none;
+  }
   #mono{
      height: 80px;
      width: 70px;
+   }
+   #foote{
+     align-items: center;
    }
  .header-top {
    padding: 14px 40px;
@@ -471,7 +485,9 @@
 
  .header-info-box .hib-text h6 {
    font-weight: 400;
-   font-size: 14px;
+   font-size: 16px;
+   line-height: 20px;
+   padding-right: 20px;
  }
 
  .header-info-box .hib-text p {
@@ -636,7 +652,7 @@ width: 100%;
 }
 
 .container {
-padding: 0 5px;
+padding: 1px; 5px;
 }
 
 /* Clear floats */
