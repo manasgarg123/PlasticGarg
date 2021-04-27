@@ -223,6 +223,7 @@
    background: #000;
  }
 
+
  .loader {
    width: 40px;
    height: 40px;
@@ -416,11 +417,10 @@
     color: white;
   }
   #name{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
     margin-left: 10px;
-    height: 80px;
-    width: 250px;
+    height: 100px;
+    width: 300px;
   }
   #mono{
     margin-top: 10px;
@@ -446,6 +446,10 @@
      padding-top: 20px;
      color: white;
    }
+   #con{
+     padding-top: 20px;
+   }
+
  .header-top {
    padding: 0px 100px;
    background: #081624;
